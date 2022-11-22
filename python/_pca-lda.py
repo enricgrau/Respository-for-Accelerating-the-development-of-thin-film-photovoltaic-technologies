@@ -2,7 +2,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.model_selection import cross_validate
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
-import my_functions as spep
+import spectrapepper as spep
 import pandas as pd
 import numpy as np
 import math
@@ -12,8 +12,8 @@ start = time.time()
 
 folder = '../data/'
 
-opto = spep.load(folder+'new_op_x.txt')
-plraman = spep.load(folder+'pl(glomax)_ra(ratio+glomax).txt', fromline=0)
+opto = spep.load(folder+'_optoelectronics.txt')
+plraman = spep.load(folder+'_pl_raman_processed_merged.txt', fromline=0)
 
 nombres = ['JSC', 'VOC', 'FFF', 'ETA']
 limits = [[21.1, 27.3, 30.2], [320.0, 402.0, 429.0], [37, 51, 60], [2.5, 5, 7.5]] #[20, 25, 30], [300, 360, 400] ([330, 390, 430]), [35, 45, 60], [3, 5, 7]
