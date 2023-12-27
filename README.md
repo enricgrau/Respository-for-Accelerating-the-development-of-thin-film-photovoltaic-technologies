@@ -10,7 +10,7 @@ How to use:
    
        cd '../folder/location'
 
-4. Download and install Python ``3.11.x`. Python ``3.12`` and above not tested.
+4. Download and install Python ``3.11.x``. Python ``3.12`` and above not tested.
 
 5. Create a virtual environment with Python ``3.11.x``:
    
@@ -24,4 +24,4 @@ How to use:
 
         pip install -r requirements.txt
 
-8. You ``venv`` should be up and ready to run the scripts available. Try running any of the including scripts in ``code`` to test it.
+8. You ``venv`` should be up and ready to run the scripts available. Try running any of the including scripts in ``code`` folder to test it.

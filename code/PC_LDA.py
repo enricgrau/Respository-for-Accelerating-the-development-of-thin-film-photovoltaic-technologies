@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split, cross_validate
 
 X, y = spep.load('data/X_czgse.txt'), spep.load('data/y_czgse.txt')
 
-X = StandardScaler().fit_transform(X)
+#X = StandardScaler().fit_transform(X)
 
 y, _ = spep.classify(y, gnumber=0, glimits=[0.85, 1.05, 1.15]) # for czgse data
 # y, _ = spep.classify(y, gnumber=0, glimits=[690, 705]) # for in4cis data
