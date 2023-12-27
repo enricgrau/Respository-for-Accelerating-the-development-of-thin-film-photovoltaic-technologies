@@ -1,0 +1,28 @@
+cff-version: 1.1.0
+message: "If you find this useful, please consider a citation."
+authors:
+- family-names: Grau-Luque
+  given-names: Enric
+orcid: https://orcid.org/0000-0002-8357-5824
+- family-names: Becerril-Romero
+  given-names: Ignacio
+orcid: https://orcid.org/0000-0002-7087-6097
+- family-names: Atlan
+  given-names: Fabien
+orcid: https://orcid.org/0000-0001-7233-4892
+- family-names: Zimmermann
+  given-names: Andreas
+orcid: 
+- family-names: Pérez-Rodríguez
+  given-names: Alejandro
+orcid: https://orcid.org/0000-0002-3634-1355
+- family-names: Maxim
+  given-names: Guc
+orcid: https://orcid.org/0000-0002-2072-9566
+- family-names: Izquierdo-Roca
+  given-names: Victor
+orcid: https://orcid.org/0000-0002-5502-3133
+
+title:Supplementary information for the article "Accelerating the Development of Thin Film Photovoltaic Technologies: An Artificial Intelligence Assisted Methodology Using Spectroscopic and Optoelectronic Techniques"
+version: 1.0.1
+date-released: 2023-12-27
